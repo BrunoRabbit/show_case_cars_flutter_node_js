@@ -1,7 +1,6 @@
 # show_case_flutter_node_js
 
 [![showcase_cars][dart_logo_img]][repo_url]
-[![showcase_cars][node_logo_img]][repo_url]
 
 ## Aviso
 
@@ -15,56 +14,17 @@ Baseado no site da empresa [Kavok][company_author], o design do sistema é uma i
 
 Caso seja um `Administrador`, é possivel realizar ações a mais, como adicionar, remover e editar carros. Todas as requisições privadas de `usuário` e `Administrador` estão protegidas com `token jwt`, e armazenadas em um local storage(Shared Preferences)
 
-### Back-end - NodeJs
-
-O Back-end foi feito com a possibilidade de `escalar`, sempre pensando em uma maneira mais fácil de se comunicar com o Front-end.
-
-Utilizando como back-end `Node.js` e como banco de dados o `MySQL`, e para criar o banco de dados foi utilizado Express.js e Sequelize.
-
-A API é composta de 2 grupos de rotas envolvendo usuários e carros e sempre mantendo uma padronização nos retornos.
-
-Foi utilizado o `token JWT` para restringir ações de usuários e manter os dados mais protegidos. Fora a utilização de criptografia para salvar a senha no banco, e uma hash especial junto a ela. Para a realização da busca de Carros dentro do banco foi feito a busca LIKE, função presente no banco mysql.
-
 ## ⚡️ Como utilizar
 
 ### Front-end
 
 Clone o repositorio no terminal de sua preferencia
 
-- <code>`git clone `</code>
+- <code>`git clone https://github.com/BrunoRabbit/show_case_cars_flutter_node_js`</code>
 
 Execute no terminal
 
 - <code>flutter pub get</code>
-
-### Back-end
-
-Clone o repositorio no terminal de sua preferencia
-
-- <code>`git clone `</code>
-
-Inicialize o node_modules
-
-- <code>npm install</code>
-
-Crie o banco de dados com o comando
-
-- <code>node api/db/create_tables.js</code>
-
-## ❗ Observações (Back-end)
-
-Após seguir com as orientações do tópico anterior, é necessário criar o `Administrador`. Sempre o usuario cadastrado será um Adm, para motivos de teste.
-
-## 📝 Métricas concluídas
-
-    ✅ Home page pública exibindo a vitrine de veículos.
-    ✅ Os veiculos devem estar em ordem de valor
-    ✅ Para cadastro dos veiculos deverá ter um login administrativo com token JWT
-    ✅ O admin so pode ser acessado se o usuario conseguir se autenticar
-    ✅ Todas as requisicoes privadas de um token valido gerado no login para o funcionamento da requisicao
-    ✅ O cadastro de veiculos deverá ser um CRUD
-    ✅ O Backend deverá ser uma API Rest
-    ✅ Todos os dados devem ser persistidos no banco
 
 ## ⭐️ Credits
 
