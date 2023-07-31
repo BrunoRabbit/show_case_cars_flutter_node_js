@@ -1,0 +1,14 @@
+{
+    "mysql": {
+        "database": "showcase_cars_backend",
+        "user": "root",
+        "password": "",
+        "host": "127.0.0.1"
+    },
+    "api": {
+        "port": 3000
+    },
+    "jwt": {
+        "key_secret": "JWT_PROJECT_TOKEN_SHOWCASE_CARS"
+    }
+}
