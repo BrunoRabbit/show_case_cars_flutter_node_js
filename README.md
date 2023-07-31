@@ -20,7 +20,7 @@ Caso seja um `Administrador`, é possivel realizar ações a mais, como adiciona
 
 Clone o repositorio no terminal de sua preferencia
 
-- <code>`git clone https://github.com/BrunoRabbit/show_case_cars_flutter_node_js`</code>
+- <code>git clone https://github.com/BrunoRabbit/show_case_cars_flutter_node_js</code>
 
 Execute no terminal
 
