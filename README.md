@@ -34,7 +34,8 @@ Feito com ♥ por [Bruno Coelho][author_linkedin].
 
 [node_logo_img]: https://img.shields.io/badge/Node.js_v18.17.0-43853D?style=for-the-badge&logo=node.js&logoColor=white
 [dart_logo_img]: https://img.shields.io/badge/Dart-2.19.4_<_3.0.0-045998?style=for-the-badge&logo=dart
-[repo_url]: https://github.com/BrunoRabbit/pomodoro-timer/
+[repo_url]: https://github.com/BrunoRabbit/show_case_cars_flutter_node_js/
+
 
 <!-- Design company author -->
 
